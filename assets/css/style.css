@@ -1,0 +1,82 @@
+/*container
+title
+searchParameters
+articleResults
+newArticles
+submit
+clear*/
+
+
+.container{
+	margin:20px;
+}
+
+.title{
+	background-color: #002f7c;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	border-radius: 15px;
+	font-weight: bold;
+}
+
+
+/*top of div*/
+.searchParameters{
+	margin-top: 30px;
+	border: solid black 1px;
+	border-radius: 15px;
+
+}
+
+h1{
+	font-size: 400%;
+}
+
+h2{
+	margin: 0px;
+	background-color: #002f7c;
+	border-radius: 15px 15px 0 0 ;
+	color: white;
+	padding-left: 10%;
+}
+
+h3{
+	padding-left: 5%;
+}
+input{
+	padding-left: 5%;
+	width: 80%;
+	margin-left: 5%;
+}
+
+.submit {
+	text-align: center;
+	width: 10%;
+	height: 30px;
+	margin: 10px 0 10px 5%;
+	padding: 0;
+}
+
+.clear{
+	text-align: center;
+	width: 10%;
+	height: 30px;
+	margin: 10px 5% 10px 0%;
+	padding: 0;
+}
+
+
+/*top of div*/
+.articleResults{
+	margin-top: 30px;
+	border: solid black 1px;
+	border-radius: 15px;
+}
+
+.newArticles{
+	padding: 20px;
+}
+
+
+

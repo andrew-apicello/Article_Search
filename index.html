@@ -2,39 +2,42 @@
 <html>
 <head>
 	<title>NYT Article Search</title>
+	
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 
 <body>
-
-	<h1>New York Times Search</h1>
-
-	<h2>Search Parameters</h2>
-	<hr>
-	<h3>Search Term</h3>
-	<form>
-		<input type="text" value="Example..."><br>
-	</form>
-	<hr>
-	<h3>Number of Records to Retrieve</h3>
-	<form>
-		<input type="text" value="Example..."><br>
-	</form>
-	<hr>
-	<h3>Start Year</h3>
-	<form>
-		<input type="text" value="Example..."><br>
-	</form>
-	<hr>
-	<h3>End Year</h3>
-	<form>
-		<input type="text" value="Example..."><br>
-	</form>
-	<input type="submit" value="Submit">
-
-
-
-
+	<div class="container">
+		<div class="title">
+			<h1>New York Times Search</h1>
+		</div>
+		<div class="searchParameters">
+			<h2>Search Parameters</h2>
+			<h3>Search Term</h3>
+			<form>
+				<input type="text" value="Example..."><br>
+			</form>
+			<h3>Number of Records to Retrieve</h3>
+			<form>
+				<input type="text" value="Example..."><br>
+			</form>
+			<h3>Start Year</h3>
+			<form>
+				<input type="text" value="Example..."><br>
+			</form>
+			<h3>End Year</h3>
+			<form>
+				<input type="text" value="Example..."><br>
+			</form>
+			<input class="submit" type="submit" value="Submit">
+			<input class="clear" type="submit" value="Clear">
+		</div>
+		<div class="articleResults">
+			<h2>Top Articles</h2>
+			<div class="newArticles"></div>
+		</div>
+	</div>
 
 
 
@@ -42,6 +45,6 @@
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script type="text/javascript" src="assets/javascript/app.js">
-</script>
+	</script>
 </body>
 </html>
