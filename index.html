@@ -4,6 +4,8 @@
 	<title>NYT Article Search</title>
 	
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 
@@ -16,22 +18,23 @@
 			<h2>Search Parameters</h2>
 			<h3>Search Term</h3>
 			<form>
-				<input type="text" value="Example..."><br>
+				<input id="query" type="text" value="Hurricane Sandy"><br>
 			</form>
-			<h3>Number of Records to Retrieve</h3>
+			<h3>Number of Records to Retrieve (max 10)</h3>
 			<form>
-				<input type="text" value="Example..."><br>
+				<input id="number" type="text" value="10"><br>
 			</form>
-			<h3>Start Year</h3>
+			<!-- <h3>Start Date</h3>
 			<form>
-				<input type="text" value="Example..."><br>
+				<input id="beginDate" type="text" value="YYYYMMDD"><br>
 			</form>
-			<h3>End Year</h3>
-			<form>
-				<input type="text" value="Example..."><br>
-			</form>
-			<input class="submit" type="submit" value="Submit">
-			<input class="clear" type="submit" value="Clear">
+			<h3>End Date</h3>
+			<form> -->
+				<!-- <input id="endDate" type="text" value="YYYYMMDD"><br>
+			</form> -->
+			<input id="submit" class="submit" type="submit" value="Submit">
+
+		<!-- 	<input class="clear" type="submit" value="Clear"> -->
 		</div>
 		<div class="articleResults">
 			<h2>Top Articles</h2>
@@ -39,11 +42,6 @@
 		</div>
 	</div>
 
-
-
-
-
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script type="text/javascript" src="assets/javascript/app.js">
 	</script>
 </body>
